@@ -1,0 +1,58 @@
+nav{
+    border: 2px solid firebrick;
+    height: 250px;
+    width: 450px;
+    background-image: url(./Photos/Bugatti.png);
+    background-size: 450px;
+     background-size: cover; 
+    background-repeat: no-repeat;
+}
+a:link{
+    color: crimson;
+}
+
+a:visited{
+    color: darkolivegreen;
+}
+
+nav:hover{
+    background-image: url("./Photos/Can.jpg");
+    background-size: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+a:active{
+    color: coral;
+}
+div:first-child{
+    background-color: forestgreen;
+}
+
+p:first-child{
+    background-color: brown;
+}
+
+p:last-child{
+    background-color: crimson;
+}
+
+p:nth-child(3){
+    background-color: dimgray;
+}
+
+div:hover{
+    background-color: darkolivegreen;
+}
+
+h1:first-child{
+    background-color: darkmagenta;
+}
+h1:last-child{
+    background-color: yellowgreen;
+}
+h1:nth-child(5){
+    border: 5px solid midnightblue;
+    background-color: cornflowerblue;
+}

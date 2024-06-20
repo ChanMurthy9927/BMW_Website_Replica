@@ -1,0 +1,207 @@
+#tr1{
+    border: 2px solid fuchsia;
+    height: 200px;
+    display: inline;
+}
+
+span{
+    border: 1px solid rgb(144, 47, 255);
+    height: 100px;
+    display: block;
+}
+
+#xyz{
+    border: 2px solid chocolate;
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+}
+
+#abc{
+    border: 2px solid rgb(210, 72, 30);
+    height: 200px;
+    width: 300px;
+    display: none;
+}
+
+/* #uni{
+    border: 2px solid violet;
+    height: 200px;
+    width: 300px;
+    background-image: url(../Photos/Can.jpg);
+    background-size: cover; 
+    background-size: 400px;
+    visibility: hidden;
+} */
+
+nav{
+    border: 2px solid springgreen;
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.see{
+    border: 2px solid crimson;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#try1{
+    border: 2px solid brown;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#try2{
+    border: 2px solid midnightblue;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#try3{
+    border: 2px solid cadetblue;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#try4{
+    border: 2px solid darkcyan;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#try5{
+    border: 2px solid forestgreen;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#rev1{
+    border: 3px solid saddlebrown;
+    height: 100px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pqr{
+    border: 2px solid sandybrown;
+    height: 80px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#x1{
+    border: 2px solid slateblue;
+    height: 60px;
+    width: 100px;
+    
+}
+
+#x2{
+    border: 2px solid slateblue;
+    height: 60px;
+    width: 100px;
+}
+
+.pqr1{
+    border: 2px solid sandybrown;
+    height: 80px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#y1{
+    border: 2px solid slateblue;
+    height: 60px;
+    width: 100px; 
+}
+
+#y2{
+    border: 2px solid slateblue;
+    height: 60px;
+    width: 100px; 
+}
+
+#y3{
+        border: 2px solid slateblue;
+        height: 60px;
+        width: 100px; 
+}
+
+.pqr2{
+    border: 2px solid sandybrown;
+    height: 80px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#z1{
+    border: 2px solid slateblue;
+    height: 60px;
+    width: 100px;
+}
+
+#z2{
+    border: 2px solid slateblue;
+    height: 60px;
+    width: 100px;
+}
+
+.pqr3{
+    border: 2px solid sandybrown;
+    height: 80px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#w1{
+    border: 2px solid slateblue;
+    height: 60px;
+    width: 100px;
+}
+
+#w2{
+    border: 2px solid slateblue;
+    height: 60px;
+    width: 100px;
+}
+
+#w3{
+    border: 2px solid slateblue;
+    height: 60px;
+    width: 100px; 
+}

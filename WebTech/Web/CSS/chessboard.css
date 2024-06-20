@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* border: 2px solid red; */
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(black, slategrey, indigo);
+    /* background-image: url("../Photos/images\ \(2\).jfif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animate 2s linear infinite;
+}
+
+/* @keyframes animate{
+    100%{transform: translateX(30px) translateY(50px);}
+} */
+
+section{
+    border: 5px solid darkblue;
+    background-image: linear-gradient(black, dimgray, darkslategray, midnightblue);
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate{
+    100%{transform: translateX(30px) translateY(50px);}
+}
+
+nav{
+    margin: 10px 10px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+
+}
+
+.chess{
+    border: 3px solid black;
+}
+
+#BRook, #chess3, #chess5, #Wpawn1, #Bpawn2, #chess12, #chess14, #WBishop, #bKnight, #chess19, #chess21, #Wpawn3, #Bpawn4, #chess28,
+#chess30, #WQueen, #BKing, #chess35, #chess37, #Wpawn5, #Bpawn6, #chess44, #chess46, #wKnight, #bBishop, #chess51, #chess53, #Wpawn7, 
+#Bpawn8, #chess60, #chess62, #wRook
+{
+    /* background-color: maroon; */
+    background-image: linear-gradient(to top left,maroon, crimson, red);
+}
+
+#Bpawn1, #chess4, #chess6, #WRook, #BBishop, #chess11, #chess13, #Wpawn2, #Bpawn3, #chess20, #chess22, #WKnight, #BQueen, #chess27,
+#chess29, #Wpawn4, #Bpawn5, #chess36, #chess38, #WKing, #BKnight, #chess43, #chess45, #Wpawn6, #Bpawn7, #chess52, #chess54, #wBishop, 
+#bRook, #chess59, #chess61, #Wpawn8{
+    /* background-color: khaki; */
+    background-image: linear-gradient(to top left, khaki, lightgray, antiquewhite, lightyellow);
+}
+.chess:hover{
+    cursor: pointer;
+}
+
+#BlackRook1{
+    background-image: url("../Photos/rook.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#BRook:hover{
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#BlackBishop1{
+    background-image: url("../Photos/bishop.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#BBishop:hover{
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#BlackKnight1{
+    background-image: url("../Photos/knight\(B\).png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#bKnight:hover{
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#BlackQueen{
+    background-image: url("../Photos/queen.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#BQueen:hover{
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#BlackKing{
+    background-image: url("../Photos/king.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#BKing:hover{
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#Blackpawn1{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn1:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+@keyframes anime{
+    100%{transform: translate(200px);}
+}
+
+#bRook:hover{
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#BlackKnight2{
+    background-image: url("../Photos/knight\(B\).png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#BKnight:hover{
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#BlackBishop2{
+    background-image: url("../Photos/bishop.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#bBishop:hover{
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#BlackRook2{
+    background-image: url("../Photos/rook.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#Blackpawn2{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn2:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+#Blackpawn3{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn3:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+#Blackpawn4{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn4:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+#Blackpawn5{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn5:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+#Blackpawn6{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn6:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+#Blackpawn7{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn7:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+#Blackpawn8{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn8:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+/* #WRook{
+    background-image: url("../Photos/rook\(w\).png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#WRook:hover{
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+} */
+
+/*#BlackBishop1{
+    background-image: url("../Photos/bishop.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#BBishop:hover{
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#BlackKnight1{
+    background-image: url("../Photos/knight\(B\).png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#bKnight:hover{
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#BlackQueen{
+    background-image: url("../Photos/queen.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#BQueen:hover{
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#BlackKing{
+    background-image: url("../Photos/king.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#BKing:hover{
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#Blackpawn1{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn1:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+@keyframes anime{
+    100%{transform: translate(200px);}
+}
+
+#bRook:hover{
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#BlackKnight2{
+    background-image: url("../Photos/knight\(B\).png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#BKnight:hover{
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#BlackBishop2{
+    background-image: url("../Photos/bishop.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#bBishop:hover{
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+}
+
+#BlackRook2{
+    background-image: url("../Photos/rook.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#Blackpawn2{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn2:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+#Blackpawn3{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn3:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+#Blackpawn4{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn4:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+#Blackpawn5{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn5:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+#Blackpawn6{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn6:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+#Blackpawn7{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn7:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+}
+
+#Blackpawn8{
+    background-image: url("../Photos/pawn\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    top: 10px;
+}
+
+#Bpawn8:hover {
+    cursor: pointer;
+    background-image: radial-gradient(gray, slategrey,whitesmoke, darkslategray);
+    animation: anime 5s linear infinite;
+} */

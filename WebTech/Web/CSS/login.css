@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 224vh;
+    /* background-image: url("../Photos/images\ \(2\).jfif"); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+#img1{
+    height: 100vh;
+    width: 224vh;
+    position: absolute;
+}
+/* main{
+    box-shadow: 0px 0px 30px indigo;
+} */
+#main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heading1{
+    background-image: linear-gradient(royalblue,blue, darkblue,indigo, navy );
+    height: 100%;
+    width: 100%;
+    text-emphasis: triangle;
+    color: lavender;
+    animation: head 1s linear infinite;
+}
+#header1{
+    background-image: linear-gradient(royalblue,blue, darkblue,indigo, navy );
+    height: 100%;
+    width: 100%;
+}
+@keyframes head{
+    100%{transform: skew(120deg);}
+}
+hr{
+    border-bottom: 10px solid yellowgreen;
+    box-shadow: 0px 0px 20px whitesmoke;
+}
+
+#header{
+    background-image: linear-gradient(maroon,brown,orangered,slategray, darkslateblue);
+}
+#header2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-variant: small-caps;
+    background-image: linear-gradient(yellow, orange, orangered, gold, red);
+    position: relative;
+    box-shadow: 0px 0px 20px black;
+    animation: rotation 1s linear infinite;
+    
+}
+
+@keyframes rotation{
+    100%{transform: translate(100px);}
+}
+
+#tab{
+    border: 5px solid white;
+    height: 500px;
+    box-shadow: 0px 0px 30px lightcoral;
+    position: relative;
+    top: 50px;
+    border-radius: 5%;
+    animation: tab 3s linear infinite;
+    /* background-image: linear-gradient(to top left,darkslategrey,dimgray, darkgray, darkslateblue, black, lightgray); */
+
+}
+
+@keyframes tab{
+    100%{transform: translateY(-30px) translateX(-30px);}
+}
+
+#tabledata1{
+    font-size: 50px;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lavenderblush;
+}
+#inp1{
+    height: 20px;
+    width: 350px;
+}
+
+.inp:hover{
+    box-shadow: 0px 0px 30px lightseagreen;
+}
+
+#tabledata2{
+    font-size: 50px;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lavenderblush;
+}
+#inp2{
+    height: 20px;
+    width: 350px;
+    position: relative;
+    left: 11px;
+}
+
+#trow1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 25px; */
+    color: antiquewhite;
+}
+
+#chk1{
+    font-size: 30px;
+}
+
+#chk1:hover{
+    box-shadow: 0px 0px 30px lightseagreen;
+}
+
+#data1{
+    display: flex;
+    gap: 10px;
+}
+
+#trow2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trow3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+
+#trow4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#atag1{
+    color: aquamarine;
+}
+
+#atag2{
+    color: aquamarine;
+}
+
+#atag1:hover{
+    box-shadow: 0px 0px 20px lightgreen;
+}
+
+#atag2:hover{
+    box-shadow: 0px 0px 20px lightgreen;
+}
+
+#btn{
+    border: none;
+    height: 30px;
+    width: 100px;
+    background-image: linear-gradient(to bottom right ,rgb(255, 217, 0), orange, orangered, red, magenta, violet);
+    color: white;
+    box-shadow: 0px 0px 10px darkslategrey;
+}
+
+#btn:hover{
+    height: 30px;
+    width: 100px;
+    border-bottom: 3px solid black;
+    box-shadow: 0px 0px 15px darkgreen;
+    background-image: radial-gradient(navy, darkblue, midnightblue, royalblue, seagreen);
+    animation: btn1 3s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes btn1{
+    100%{transform: scale(2) skew(80deg);}
+}
+
+#trow5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#atag3{
+    color: aquamarine;
+}
+
+.fa-brands{
+    position: relative;
+    right: 10px;
+    cursor: pointer;
+}
+
+#atag3:hover{
+    box-shadow: 0px 0px 20px lightgreen;
+}
+
+#trow6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+
+#atag4{
+    color: aquamarine;
+}
+
+#atag4:hover{
+    box-shadow: 0px 0px 20px lightgreen;
+}

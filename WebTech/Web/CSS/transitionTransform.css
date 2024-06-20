@@ -1,0 +1,31 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(midnightblue, darkblue, indigo, darkmagenta, magenta);
+}
+body{
+    border: 1px solid darkblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* div{
+    border: 1px solid salmon;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+} */
+
+/* div:hover{
+    height: 200px;
+    width: 200px;
+    transition-duration: 3s;
+    background-image: radial-gradient(red, maroon, magenta, indigo);
+    transform: rotate(360deg) scaleX(1) skew(280deg) translateX(-100px);
+} */
+

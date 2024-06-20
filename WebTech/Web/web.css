@@ -1,0 +1,70 @@
+/* @import url(./web1.css);
+@import url(./web2.css);
+@import url(./web3.css);
+
+h1{
+    color: beige;
+} */
+
+
+
+
+/* *{
+    background-color: midnightblue;
+}
+
+#ele
+{
+    background-color: blueviolet;
+}
+#fish
+{
+    background-color: brown;
+}
+.fam
+{
+    background-color: darkred;
+}
+nav
+{
+    background-color: olive;
+}
+#ele, #fish, .fam, nav
+{
+    color: burlywood;
+} */
+
+
+div p{
+    background-color: crimson;
+}
+
+nav>p{
+    color: darkslategrey;
+    background-color: darkcyan;
+}
+
+p+div{
+    border: 9px solid dodgerblue;
+}
+
+span~strong{
+    border: 5px solid rebeccapurple;
+    background-color: darkturquoise;
+}
+
+u li{
+    border: 2px solid greenyellow;
+}
+
+li>p{
+    background-color: brown;
+}
+
+ol+ul{
+    color: chocolate;
+}
+
+u~ol{
+    color: violet;
+}

@@ -1,0 +1,51 @@
+div{
+    border: 2px solid blueviolet;
+    height: 300px;
+    width: 300px;
+    /* position: sticky; */
+    padding: 115px 120px 130px;
+    background-image: linear-gradient(to top right, teal, gold, silver, forestgreen, coral);
+}
+
+nav{
+    border: 2px solid gray;
+    height: 300px;
+    width: 300px;
+    padding: 115px 120px 130px;
+    background-image: repeating-linear-gradient(to top right, cyan 80%, orangered 20%, darkorange, indigo 50%, lightyellow, red, gold, powderblue, sienna 90%);
+}
+
+h1{
+    border: 2px solid blueviolet;
+    height: 300px;
+    width: 300px;
+    padding: 115px 120px 130px;
+    background-image: radial-gradient(circle, purple, lightblue, rosybrown, powderblue, snow, midnightblue);
+}
+
+h2{
+    border: 2px solid blueviolet;
+    height: 300px;
+    width: 300px;
+    padding: 118px 120px 130px;
+    background-image: repeating-radial-gradient(circle , silver 80%, dimgray, darkblue, maroon, darkslategray, seagreen, midnightblue);
+}
+
+p{
+    border: 2px solid blueviolet;
+    height: 300px;
+    width: 300px;
+    /* padding-top: 30px; */
+    padding: 115px 120px 130px;
+    margin-left: 300px;
+    /* background-image: conic-gradient(yellow ,  forestgreen , darkred , midnightblue , cadetblue ); */
+    background-image: conic-gradient(yellow, black, dimgray, coral, silver, gold, forestgreen, olive, darkorange, orangered, red, darkred, maroon,brown, crimson, tomato, royalblue, midnightblue, indigo, skyblue, seagreen, cadetblue);
+}
+
+div, #web{
+    display: inline-table;
+}
+
+h1, h2{
+    display: inline-table;
+}

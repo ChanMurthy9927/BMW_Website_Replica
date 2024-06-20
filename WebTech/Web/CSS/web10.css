@@ -1,0 +1,258 @@
+#main3{
+    border: 2px solid salmon;
+    height: 400vh;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+video{
+   pointer-events: none;
+}
+
+#nav{
+    /* border: 2px solid slateblue; */
+    height: 250px;
+    width: 194vh;
+    position: relative;
+    bottom: 280px;
+    left: 100px;
+    z-index: 2;
+}
+
+#d1{
+    /* border: 2px solid blueviolet; */
+    height: 40px;
+    color: antiquewhite;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+    position: relative;
+    /* z-index: 3; */
+}
+
+#d2{
+    /* border: 2px solid rgb(43, 76, 226); */
+    height: 60px;
+    color: antiquewhite;
+    font-size: 65px;
+    font-weight: 500;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+    position: relative;
+    /* z-index: 4; */
+}
+
+#d3{
+    /* border: 2px solid rgb(211, 161, 22); */
+    height: 60px;
+    color: antiquewhite;
+    font-size: 40px;
+    /* font-weight: 100; */
+    font-weight: lighter;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+    position: relative;
+    /* z-index: 5; */
+}
+
+#dd1{
+    /* border: 2px solid rgb(211, 161, 22); */
+    height: 60px;
+    color: antiquewhite;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    /* z-index: 6; */
+}
+
+#dd2{
+    /* border: 2px solid rgb(211, 161, 22); */
+    height: 60px;
+    color: antiquewhite;
+    display: flex;
+    position: relative;
+    /* z-index: 7; */
+}
+
+#b1{
+    border: 1px solid whitesmoke;
+    background-color: royalblue;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+    position: relative;
+    /* z-index: 8; */
+}
+
+#dd3{
+    /* border: 2px solid rgb(211, 161, 22); */
+    height: 60px;
+    color: antiquewhite;
+    display: flex;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+    position: relative;
+    /* z-index: 9; */
+}
+
+#b2{
+    border: 1px solid whitesmoke;
+    width: 125px;
+    cursor: pointer;
+    background-color: transparent;
+    color: antiquewhite;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+    position: relative;
+    /* z-index: 10; */
+}
+ #b1:hover{
+    border-bottom: 5px solid firebrick;
+    background-image: linear-gradient(to bottom left, crimson, cadetblue, midnightblue);
+    position: relative;
+    z-index: 11;
+ }
+
+ #b2:hover{
+   border-bottom: 5px solid firebrick;
+    background-image: linear-gradient(to bottom left, maroon, teal, indigo);
+    position: relative;
+    z-index: 11;
+ }
+
+ #dc1{
+    position: relative;
+    top: -204px;
+    z-index: 11;
+    text-align: center;
+ }
+
+ #dc2{
+    position: relative;
+    top: -204px;
+    z-index: 12;
+    text-align: center;
+ }
+
+ #dc3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 50px;
+    top: -239px;
+    /* z-index: 13; */
+    /* z-index: 4; */
+ }
+
+ #dl1{
+   font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+   font-size: 20px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    /* z-index: 14; */
+    /* z-index: 3; */
+ }
+
+ #ddl1{
+   
+    position: relative;
+    /* bottom: 10px; */
+    left: -25px;
+    /* z-index: 15; */
+ }
+
+ #ddd1{
+    position: relative;
+    /* bottom: 10px; */
+    left: 56px;
+    /* z-index: 16; */
+    z-index: 3;
+ }
+
+ #ddl2{
+    position: relative;
+    /* bottom:  10px; */
+    left:-19px;
+    /* z-index: 17; */
+    z-index: 3;
+ }
+
+ #ddd2{
+    position: relative;
+    bottom: 11px;
+    left: 65px;
+    /* z-index: 18; */
+    z-index: 3;
+ }
+
+
+ #dl2{
+   font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+   font-size: 20px;
+    position: relative;
+    /* z-index: 19; */
+ }
+
+ #dl3{
+   font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+   font-size: 20px;
+    position: relative;
+    /* z-index: 20; */
+ }
+
+ #ddd3{
+   position: relative;
+   bottom: 11px;
+   left: 84px;
+ }
+
+ #sp1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ #s1{
+   position: relative;
+   height: 3px;
+   width: 3px;
+   /* background-color: transparent; */
+ }
+
+ #b3{
+   font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+   position: relative;
+   height: 40px;
+   width: 126px;
+   bottom: 246px;
+   right: 293px;
+   cursor: pointer;
+   background-color: transparent;
+   color: black;
+   font-size: 12px;
+   }
+
+   #b4{
+      font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+      position: relative;
+      height: 40px;
+      width: 132px;
+      bottom: 227px;
+      right: -53px;
+      cursor: pointer;
+      background-color: transparent;
+      color: black;
+      font-size: 12px;
+      }
+
+      #b5{
+         font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+         position: relative;
+         height: 40px;
+         width: 132px;
+         bottom: 227px;
+         left: 283px;
+         cursor: pointer;
+         background-color: transparent;
+         color: black;
+         font-size: 12px;
+         }

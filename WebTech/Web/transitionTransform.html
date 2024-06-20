@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/transitionTransform.css">
+</head>
+<style>
+    nav{
+        height: 300px;
+        width: 100%;
+        border: 2px solid forestgreen;
+        display: flex;
+        gap: 30px;
+        /*flex-direction: column;*/
+        /*flex-direction: row;*/
+        /*flex-direction: column-reverse;*/
+        /*flex-direction: row-reverse;*/
+        /*flex-wrap: wrap;*/
+    }
+    .max{
+        height: 30px;
+        width: 80px;
+        border: 1px solid dimgray;
+        /*flex-shrink: 1;*/
+        /*flex-grow: 1;*/
+    }
+    #max1{
+        height: 30px;
+        width: 80px;
+        border: 1px solid dimgray;
+        /*flex-shrink: 2;*/
+    }
+    #max2{
+        height: 30px;
+        width: 80px;
+        border: 1px solid dimgray;
+        /*flex-grow: 2;*/
+    }
+    #max3{
+        height: 30px;
+        width: 80px;
+        border: 1px solid dimgray;
+        flex-basis: 390px;
+    }
+    #max4{
+        height: 30px;
+        width: 80px;
+        border: 1px solid dimgray;
+    }
+</style>
+<body>
+    <nav>
+        <div class="max" id="max1">1</div>
+        <div class="max" id="max2">2</div>
+        <div class="max" id="max3">3</div>
+        <div class="max" id="max4">4</div>
+    </nav>
+
+</body>
+</html>

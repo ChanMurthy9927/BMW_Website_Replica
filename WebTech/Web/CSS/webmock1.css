@@ -1,0 +1,99 @@
+/* *{
+   } */
+/* body{
+    background-image: linear-gradient(midnightblue, indigo, blue, red);
+
+} */
+
+/* #i1{
+    border: 1px solid green;
+    position: relative;
+     top: 288px;
+     left: 220px;
+     z-index: 2;
+     color: aliceblue;
+     font-size: 30px;
+
+} */
+
+/* #s1{
+    position: absolute;
+    z-index: 1;
+    border: 2px solid blueviolet;
+    height: 200px;
+    border-radius: 20px;
+    border-bottom: 221px solid hotpink;
+    border-top: 282px solid firebrick;
+    border-right: 320px solid blueviolet;
+    border-left: 315px solid navy;
+    border-top-left-radius: 520px;
+    border-bottom-right-radius: 630px;
+    border-top-right-radius: 629px;
+    border-bottom-left-radius: 626px;
+    box-shadow: 10px 20px 30px;
+    background-image: conic-gradient(blue, darkmagenta, magenta, violet);
+    
+}
+
+#i2{
+
+    position: relative;
+    top: 354px;
+    left: 158px;
+    z-index: 3;
+    color: aliceblue;
+    font-size: 55px;
+
+}
+
+#i3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    z-index: 4;
+
+    top: 354px;
+    left: 12px;
+    z-index: 3;
+    color: aliceblue;
+    font-size: 12px;
+
+} */
+
+.circle{
+    border: 0px solid red;
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+    border-radius: 50%;
+        background-image: linear-gradient(to top right,grey, blue, purple, gold, white);
+        opacity: 0.7;
+        box-shadow: 30px 20px 50px;
+
+}
+
+body{
+    z-index: 1;
+    background-image: linear-gradient(to top right,black, blue, purple, pink, white);
+}
+
+#come{
+    position: relative;
+    z-index: 2;
+    margin: 100px;
+    border: 2px soild red;
+    height: 65px;
+    font-size: 35px;
+}
+#time{
+    position: relative;
+    z-index: 2;
+    margin: 100px;
+    border: 2px soild red;
+    height: 65px;
+    font-size: 45px;
+}
+#date{
+    font-size: 30px;
+}

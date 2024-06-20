@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    height: 200%;
+    width: 200%;
+}
+
+#main1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    right: 1620px;
+    bottom: 315px;
+    animation: sun 2s linear infinite;
+    box-shadow: 0px 0px 80px orangered;
+}
+
+@keyframes sun{
+    100%{transform: rotate(360deg);}
+}
+
+body{
+    height: 200%;
+    width: 200%;
+    background-image: url("../Photos/space-art-5626853_1280.webp");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* h3::after{
+    border: 3px solid darkblue;
+    background-image: url("../Photos/sun_6818237.png");
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+} */
+
+h4{
+    border: 3px solid chocolate;
+    height:  200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 740px;
+    left: 925px;
+    animation: merc 10s linear infinite;
+}
+
+@keyframes merc{
+    100%{transform: rotate(360deg);}
+}
+
+#main2{
+    position: absolute;
+    right: 20px;
+    bottom: 7px;
+    /* animation: mercury 30s linear infinite; */
+}
+
+/* @keyframes mercury{
+    100%{transform: rotate(360deg);}
+} */
+
+div{
+    border: 3px solid chocolate;
+    height:  400px;
+    width: 400px;
+    border-radius: 50%;
+    position: absolute;
+    top: 640px;
+    left: 825px;
+    animation: venus 15s linear infinite;
+}
+
+@keyframes venus{
+    100%{transform: rotate(360deg);}
+}
+
+#main3{
+    position: absolute;
+    right: -25px;
+    bottom: 200px;
+    /* animation: mercury 30s linear infinite; */
+}
+
+aside{
+    border: 3px solid chocolate;
+    height:  600px;
+    width: 600px;
+    border-radius: 50%;
+    position: absolute;
+    top: 540px;
+    left: 725px;
+    animation: earth 30s linear infinite;
+}
+
+@keyframes earth{
+    100%{transform: rotate(360deg);}
+}
+
+#main4{
+    position: absolute;
+    right: -25px;
+    bottom: 200px;
+    /* animation: mercury 30s linear infinite; */
+}
+
+article{
+    border: 3px solid chocolate;
+    height:  800px;
+    width: 800px;
+    border-radius: 50%;
+    position: absolute;
+    top: 450px;
+    left: 625px;
+    animation: mars 30s linear infinite;
+}
+
+@keyframes mars{
+    100%{transform: rotate(360deg);}
+}
+
+#main5{
+    position: absolute;
+    right: 32px;
+    bottom: 200px;
+    /* animation: mercury 30s linear infinite; */
+}
+
+p{
+    border: 3px solid chocolate;
+    height:  1000px;
+    width: 1000px;
+    border-radius: 50%;
+    position: absolute;
+    top: 340px;
+    left: 525px;
+    animation: jupiter 35s linear infinite;
+}
+
+#main6{
+    position: absolute;
+    right: 14px;
+    bottom: 710px;
+    /* animation: mercury 30s linear infinite; */
+}
+
+@keyframes jupiter{
+    100%{transform: rotate(360deg);}
+}
+
+h1{
+    border: 3px solid chocolate;
+    height:  1200px;
+    width: 1200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 435px;
+    animation: saturn 30s linear infinite;
+}
+@keyframes saturn{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#main7{
+    position: absolute;
+    right: -19px;
+    bottom: 710px;
+    /* animation: mercury 30s linear infinite; */
+}
+
+h2{
+    border: 3px solid chocolate;
+    height: 1400px;
+    width: 1400px;
+    border-radius: 50%;
+    position: absolute;
+    top: 130px;
+    left:335px;
+    animation: uranus 35s linear infinite;
+}
+
+#main8{
+    position: absolute;
+    right: -26px;
+    bottom: 710px;
+    /* animation: mercury 30s linear infinite; */
+}
+
+@keyframes uranus{
+    100%{transform: rotate(360deg);}
+}
+
+h3{
+    border: 3px solid chocolate;
+    height:  1600px;
+    width: 1600px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left:230px;
+    animation: neptune 30s linear infinite;
+}
+
+#main9{
+    position: absolute;
+    right: -29px;
+    bottom: 710px;
+    /* animation: mercury 30s linear infinite; */
+}
+
+@keyframes neptune{
+    100%{transform: rotate(360deg);}
+}
